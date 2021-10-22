@@ -1,2 +1,2 @@
-# frequency_queries
-Python solution to HackerRank's Frequency Queries problem
+# Frequency Queries
+Python solution to HackerRank's Frequency Queries problem using just a single Counter dictionary.
