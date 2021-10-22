@@ -13,9 +13,9 @@ def freqQuery(queries):
     for k,v in queries:
         if k==1:
             c[v]+=1
-        if k==2 and c[v]>0:
-            c[v]-=1 
-        if k==3:
+        elif k==2:
+            if c[v]>0: c[v]-=1 
+        else:
             yield 1 if v in set(c.values()) else 0
     return
 
